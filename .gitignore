@@ -1,0 +1,32 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Java / Maven
+backend/target/
+*.class
+*.jar
+*.war
+*.log
+
+# Node / Vue
+frontend/node_modules/
+frontend/dist/
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env
+*.env
+.env.*
+!.env.example
+
+# Database (optional: uncomment if init.sql contains real user data)
+# db/*.sql
